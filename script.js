@@ -1,3 +1,9 @@
+var count=0;
+var check=0;
+var savepoint= [0, 0];
+var savepoint2=[0,0];
+var checkpoint=0;
+
 $(document).read(function(){
  var Y = function(){
     if(count == 2){
@@ -6,15 +12,22 @@ $(document).read(function(){
       		checkpoint++;
       	}
       	eles{
-      		$('.A'+savepoint2[0].toggleClass('Aback'+savepoint[0]));
-      		$('.A'+savepoint2[0].toggleClass('Aback'+savepoint[0]));
+      		$('.card'+savepoint2[0].toggleClass('back'+savepoint[0]));
+      		$('.card'+savepoint2[0].toggleClass('back'+savepoint[0]));
       	}
     }
  }
  	$('.A').click(function(){
- 		$(this).toggleClass('Aback');
+ 		$(this).toggleClass('backA');
  		savepoint[count] = 1;
  		savepoint2[count] =1;
+ 		count +=1;
+ 		Y();
+ 	});
+	$('.B').click(function(){
+ 		$(this).toggleClass('backA');
+ 		savepoint[count] = 1;
+ 		savepoint2[count] =3;
  		count +=1;
  		Y();
  	});
