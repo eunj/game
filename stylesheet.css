@@ -1,15 +1,47 @@
 div{
-  border-radius:5px;
+  overflow:hidden;
+  position:relative;
 }
 
 .card{
-  background-color: #A7DBD8;
   width: 100px;
   height: 100px;
 }
 
+.A{
+  background-color:#F38630;
+}
+.B{
+  background-color:#F38630;
+}
+.C{
+  background-color:#F38630;
+}
+.D{
+  background-color:#F38630;
+}
+.E{
+  background-color:#F38630;
+}
+.A{
+  background-color:#F38630;
+}
+.F{
+  background-color:#F38630;
+}
+.G{
+  background-color:#F38630;
+}
+.H{
+  background-color:#F38630;
+}
+.I{
+  background-color:#F38630;
+}
+
 .backA{
-  background-color: #F38630;
-  width: 100px;
-  height: 100px;
+  background-image: url(img/back.jpg);
+}
+.backB{
+  background-image: url(img/back.jpg);
 }
