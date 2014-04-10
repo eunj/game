@@ -13,7 +13,7 @@ $(document).read(function(){
       	}
       	eles{
       		$('.card'+savepoint2[0].toggleClass('back'+savepoint[0]));
-      		$('.card'+savepoint2[0].toggleClass('back'+savepoint[0]));
+      		$('.card'+savepoint2[1].toggleClass('back'+savepoint[1]));
       	}
     }
  }
