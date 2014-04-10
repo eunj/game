@@ -25,9 +25,58 @@ $(document).read(function(){
  		Y();
  	});
 	$('.B').click(function(){
+ 		$(this).toggleClass('backB');
+ 		savepoint[count] = 2;
+ 		savepoint2[count] =2;
+ 		count +=1;
+ 		Y();
+ 	});
+	$('.C').click(function(){
+ 		$(this).toggleClass('backC');
+ 		savepoint[count] = 3;
+ 		savepoint2[count] =3;
+ 		count +=1;
+ 		Y();
+ 	});
+ 	$('.D').click(function(){
+ 		$(this).toggleClass('backC');
+ 		savepoint[count] = 3;
+ 		savepoint2[count] =4;
+ 		count +=1;
+ 		Y();
+ 	});
+ 	$('.E').click(function(){
  		$(this).toggleClass('backA');
  		savepoint[count] = 1;
- 		savepoint2[count] =3;
+ 		savepoint2[count] =5;
+ 		count +=1;
+ 		Y();
+ 	});
+ 	$('.F').click(function(){
+ 		$(this).toggleClass('backB');
+ 		savepoint[count] = 2;
+ 		savepoint2[count] =6;
+ 		count +=1;
+ 		Y();
+ 	});
+ 	$('.G').click(function(){
+ 		$(this).toggleClass('backD');
+ 		savepoint[count] = 4;
+ 		savepoint2[count] =7;
+ 		count +=1;
+ 		Y();
+ 	});
+ 	$('.H').click(function(){
+ 		$(this).toggleClass('backD');
+ 		savepoint[count] = 4;
+ 		savepoint2[count] =8;
+ 		count +=1;
+ 		Y();
+ 	});
+ 	$('.I').click(function(){
+ 		$(this).toggleClass('backE');
+ 		savepoint[count] = 5;
+ 		savepoint2[count] =9;
  		count +=1;
  		Y();
  	});
