@@ -1,2 +1,4 @@
-
-$(document).read(function(){
+$("cardA").click(function(){
+  $(this).toggleClass("backA");
+  
+});
