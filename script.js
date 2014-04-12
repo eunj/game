@@ -1,4 +1,5 @@
-$("cardA").click(function(){
-  $(this).toggleClass("backA");
-  
+$(document).ready(function() {
+  $("cardA").click(function(){
+    $(this).toggleClass("backA");
+  });
 });
