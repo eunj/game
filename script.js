@@ -2,8 +2,8 @@ $(document).ready(function() {
   $('#A').click(function(){
     $(this).toggleClass('backA');
   });
-});
-$('#B').click(function(){
+
+  $('#B').click(function(){
     $(this).toggleClass('backC');
   });
   
@@ -46,6 +46,8 @@ $('#K').click(function(){
 $('#L').click(function(){
     $(this).toggleClass('backF');
   });    
+});
+
   
     
   
