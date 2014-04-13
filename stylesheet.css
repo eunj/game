@@ -38,17 +38,20 @@ div{
 
 
 .backA{
-  background-image: url(img/A.jpg);
+  background-image: url('img/A.jpg');
 }
 .backB{
-  background-image: url(img/B.jpg);
+  background-image: url('img/B.jpg');
 }
 .backC{
-  background-image: url(img/C.jpg);
+  background-image: url('img/C.jpg');
 }
 .backD{
-  background-image: url(img/D.jpg);
+  background-image: url('img/D.jpg');
 }
 .backE{
-  background-image: url(img/E.jpg);
+  background-image: url('img/E.jpg');
+}
+.backF{
+  background-image: url('img/F.jpg');
 }
