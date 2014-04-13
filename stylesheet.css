@@ -8,34 +8,42 @@ div{
   height: 150px;
 }
 
-.A{
+#A{
   background-color:#F38630;
 }
-.B{
+#B{
   background-color:#F38630;
 }
-.C{
+#C{
   background-color:#F38630;
 }
-.D{
+#D{
   background-color:#F38630;
 }
-.E{
+#E{
   background-color:#F38630;
 }
-.F{
+#F{
   background-color:#F38630;
 }
-.G{
+#G{
   background-color:#F38630;
 }
-.H{
+#H{
   background-color:#F38630;
 }
-.I{
+#I{
   background-color:#F38630;
 }
-
+#J{
+  background-color:#F38630;
+}
+#K{
+  background-color:#F38630;
+}
+#L{
+  background-color:#F38630;
+}
 
 .backA{
   background-image: url('img/A.jpg');
